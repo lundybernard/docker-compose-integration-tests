@@ -6,3 +6,7 @@
 - Compatible with standard python unittest (`python -m unittest integration_tests.test_`)
 - Compatible with testing frameworks such as nosetest and pytest (`nosetest`, `pytest -v --log-level DEBUG`)
 - Bonus: make the tests executable against a live environment, for diagnostics
+
+## Requirements:
+- Docker
+- docker-compose
