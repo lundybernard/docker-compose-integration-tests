@@ -8,4 +8,6 @@ python:
   - '3.5'
   - '3.6'
 
-script: pytest -v --log-level DEBUG`
+install: true
+
+script: pytest -v --log-level DEBUG
