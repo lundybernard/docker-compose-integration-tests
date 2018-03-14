@@ -1,5 +1,7 @@
 # Example Python integration testing with docker-compose
 
+[![Build Status](https://travis-ci.org/lundybernard/docker-compose-integration-tests.svg?branch=master)](https://travis-ci.org/lundybernard/docker-compose-integration-tests)
+
 ## Objectives:
 
 1. demonstrate using pyton unittest to build, start up, execute tests against, and tear down an app defined in a docker-compose file.
