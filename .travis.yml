@@ -8,6 +8,8 @@ python:
   - '3.5'
   - '3.6'
 
-install: true
+install:
+    - pip install requests
+    - pip install docker-compose
 
 script: pytest -v --log-level DEBUG
