@@ -1,0 +1,11 @@
+sudo: required
+services:
+  - docker
+
+language: python
+
+python:
+  - '3.5'
+  - '3.6'
+
+script: pytest -v --log-level DEBUG`
